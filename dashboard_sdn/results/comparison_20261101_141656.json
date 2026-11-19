@@ -1,0 +1,147 @@
+{
+    "timestamp": "2026-11-01T14:16:00.969372",
+    "rounds_per_path": 5,
+    "paths": {
+        "upper": {
+            "route": "H1 -> S1 -> S2 -> S4 -> H2",
+            "round_results": [
+                {
+                    "packets_sent": 50,
+                    "packets_received": 50,
+                    "packets_lost": 0,
+                    "packet_loss_percent": 0.0,
+                    "min_rtt_ms": 0.193,
+                    "max_rtt_ms": 2.216,
+                    "avg_rtt_ms": 0.452,
+                    "avg_jitter_ms": 0.292,
+                    "round": 1
+                },
+                {
+                    "packets_sent": 50,
+                    "packets_received": 50,
+                    "packets_lost": 0,
+                    "packet_loss_percent": 0.0,
+                    "min_rtt_ms": 0.198,
+                    "max_rtt_ms": 0.471,
+                    "avg_rtt_ms": 0.245,
+                    "avg_jitter_ms": 0.049,
+                    "round": 2
+                },
+                {
+                    "packets_sent": 50,
+                    "packets_received": 50,
+                    "packets_lost": 0,
+                    "packet_loss_percent": 0.0,
+                    "min_rtt_ms": 0.195,
+                    "max_rtt_ms": 0.326,
+                    "avg_rtt_ms": 0.236,
+                    "avg_jitter_ms": 0.047,
+                    "round": 3
+                },
+                {
+                    "packets_sent": 50,
+                    "packets_received": 50,
+                    "packets_lost": 0,
+                    "packet_loss_percent": 0.0,
+                    "min_rtt_ms": 0.193,
+                    "max_rtt_ms": 0.386,
+                    "avg_rtt_ms": 0.244,
+                    "avg_jitter_ms": 0.05,
+                    "round": 4
+                },
+                {
+                    "packets_sent": 50,
+                    "packets_received": 50,
+                    "packets_lost": 0,
+                    "packet_loss_percent": 0.0,
+                    "min_rtt_ms": 0.195,
+                    "max_rtt_ms": 0.49,
+                    "avg_rtt_ms": 0.249,
+                    "avg_jitter_ms": 0.063,
+                    "round": 5
+                }
+            ],
+            "summary": {
+                "packet_loss_percent": 0.0,
+                "avg_rtt_ms": 0.2852,
+                "avg_jitter_ms": 0.1002,
+                "min_rtt_ms": 0.1948,
+                "max_rtt_ms": 0.7778,
+                "total_packets_sent": 250,
+                "total_packets_received": 250,
+                "total_packets_lost": 0
+            }
+        },
+        "lower": {
+            "route": "H1 -> S1 -> S3 -> S4 -> H2",
+            "round_results": [
+                {
+                    "packets_sent": 50,
+                    "packets_received": 50,
+                    "packets_lost": 0,
+                    "packet_loss_percent": 0.0,
+                    "min_rtt_ms": 0.189,
+                    "max_rtt_ms": 7.124,
+                    "avg_rtt_ms": 0.415,
+                    "avg_jitter_ms": 0.266,
+                    "round": 1
+                },
+                {
+                    "packets_sent": 50,
+                    "packets_received": 50,
+                    "packets_lost": 0,
+                    "packet_loss_percent": 0.0,
+                    "min_rtt_ms": 0.193,
+                    "max_rtt_ms": 0.344,
+                    "avg_rtt_ms": 0.231,
+                    "avg_jitter_ms": 0.044,
+                    "round": 2
+                },
+                {
+                    "packets_sent": 50,
+                    "packets_received": 50,
+                    "packets_lost": 0,
+                    "packet_loss_percent": 0.0,
+                    "min_rtt_ms": 0.19,
+                    "max_rtt_ms": 0.597,
+                    "avg_rtt_ms": 0.242,
+                    "avg_jitter_ms": 0.066,
+                    "round": 3
+                },
+                {
+                    "packets_sent": 50,
+                    "packets_received": 50,
+                    "packets_lost": 0,
+                    "packet_loss_percent": 0.0,
+                    "min_rtt_ms": 0.187,
+                    "max_rtt_ms": 0.857,
+                    "avg_rtt_ms": 0.247,
+                    "avg_jitter_ms": 0.064,
+                    "round": 4
+                },
+                {
+                    "packets_sent": 50,
+                    "packets_received": 50,
+                    "packets_lost": 0,
+                    "packet_loss_percent": 0.0,
+                    "min_rtt_ms": 0.186,
+                    "max_rtt_ms": 0.913,
+                    "avg_rtt_ms": 0.274,
+                    "avg_jitter_ms": 0.092,
+                    "round": 5
+                }
+            ],
+            "summary": {
+                "packet_loss_percent": 0.0,
+                "avg_rtt_ms": 0.2818,
+                "avg_jitter_ms": 0.1064,
+                "min_rtt_ms": 0.189,
+                "max_rtt_ms": 1.967,
+                "total_packets_sent": 250,
+                "total_packets_received": 250,
+                "total_packets_lost": 0
+            }
+        }
+    },
+    "recommended_path": "lower"
+}

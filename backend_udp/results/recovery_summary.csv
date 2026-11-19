@@ -1,0 +1,2 @@
+packets_sent,packets_received,packets_lost,packet_loss_percent,average_rtt_ms,minimum_rtt_ms,maximum_rtt_ms
+20,20,0,0.0,1.1,0.402,2.928

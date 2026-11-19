@@ -1,0 +1,28 @@
+{
+    "timestamp": "2026-11-01T13:40:31.006908",
+    "paths": {
+        "upper": {
+            "packets_sent": 50,
+            "packets_received": 50,
+            "packets_lost": 0,
+            "packet_loss_percent": 0.0,
+            "min_rtt_ms": 0.19,
+            "max_rtt_ms": 5.952,
+            "avg_rtt_ms": 0.504,
+            "avg_jitter_ms": 0.392,
+            "route": "H1 -> S1 -> S2 -> S4 -> H2"
+        },
+        "lower": {
+            "packets_sent": 50,
+            "packets_received": 50,
+            "packets_lost": 0,
+            "packet_loss_percent": 0.0,
+            "min_rtt_ms": 0.187,
+            "max_rtt_ms": 0.989,
+            "avg_rtt_ms": 0.324,
+            "avg_jitter_ms": 0.07,
+            "route": "H1 -> S1 -> S3 -> S4 -> H2"
+        }
+    },
+    "recommended_path": "lower"
+}

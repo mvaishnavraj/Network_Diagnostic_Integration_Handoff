@@ -1,0 +1,18 @@
+{
+  "available": true,
+  "source": "Mininet pingall",
+  "protocol": "ICMP",
+  "topology": "diamond",
+  "timestamp_utc": "2026-11-19T03:12:44+00:00",
+  "hosts": [
+    "h1",
+    "h2",
+    "h3"
+  ],
+  "host_count": 3,
+  "checks_total": 6,
+  "checks_received": 6,
+  "checks_lost": 0,
+  "packet_loss_percent": 0.0,
+  "status": "pass"
+}
